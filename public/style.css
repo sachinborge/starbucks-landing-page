@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;800&display=swap");
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    max-width: 80px;
+    position: relative;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+  list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 40px;
+    color: #333;
+    font-weight: 400;
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textBox h1{
+    font-size: 2.5em;
+    line-height: 1.4em;
+    color: #333;
+    font-weight: 500;
+}
+
+.content .textBox h1 span{
+    color: #077143;
+    font-size: 1em;
+    font-weight: 900;
+}
+.content .textBox p{
+    color: #333;
+    margin-top: 20px;
+}
+.content .textBox a{
+    text-decoration: none;
+    padding: 8px 20px;
+    color:#fff;
+    background: #077143;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.content .imgBox{
+    width:600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.content .imgBox img{
+    max-width: 340px;
+}
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.thumb li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+    transition:0.5s;
+}
+.thumb li:hover{
+    transform: translateY(-15px);
+}
+.thumb li img{
+    max-width: 60px;
+}
+
+.sci{
+    position: absolute;
+    top:50%;
+    right: 30px;
+    display: flex;
+    transform: translateY(-50%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sci li{
+    list-style:none;
+}
+.sci li a{
+    display: inline-block;
+    margin: 0 5px;
+    transform: scale(0.5);
+    filter: invert(1);
+}
+
+.circle{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:#017143;
+    clip-path: circle(600px at right 800px);
+}

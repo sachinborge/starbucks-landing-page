@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="javascript:void(0)"><img src="img/logo.png" alt="logo" class="logo"></a>
+            <ul>
+                <li><a href="javascript:void(0)">Home</a></li>
+                <li><a href="javascript:void(0)">About</a></li>
+                <li><a href="javascript:void(0)">What's New</a></li>
+                <li><a href="javascript:void(0)">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">    
+                <h1>It's not just a coffee <br> It's a <span>Starbucks</span></h1>
+                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
+                <a href="javascript:void(0)">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="img/img1.png" alt="img1" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/thumb1.png" alt="thumb1" onclick="imgSlider('img/img1.png');changeCircleColor('#017143')"></li>
+            <li><img src="img/thumb2.png" alt="thumb2" onclick="imgSlider('img/img2.png');changeCircleColor('#eb7495')"></li>
+            <li><img src="img/thumb3.png" alt="thumb3" onclick="imgSlider('img/img3.png');changeCircleColor('#d752b1')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="javascript:void(0)"><img src="img/facebook.png" alt=""></a></li>
+            <li><a href="javascript:void(0)"><img src="img/twitter.png" alt=""></a></li>
+            <li><a href="javascript:void(0)"><img src="img/instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+    <script src="custom.js"></script>
+</body>
+
+</html>
